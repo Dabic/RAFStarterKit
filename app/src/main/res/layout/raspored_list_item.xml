@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_backgroud"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/raspored_li_predmet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="predmet-tip" />
+
+        <TextView
+            android:id="@+id/raspored_li_dan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:text="dan" />
+        <TextView
+            android:id="@+id/raspored_li_vreme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vreme"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/raspored_li_profesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="profesor" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/raspored_li_ucionica"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="ucionica"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/raspored_li_grupe"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="Grupe"/>
+</LinearLayout>

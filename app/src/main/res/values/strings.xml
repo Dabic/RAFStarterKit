@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RAF Starter Kit</string>
+    <string name="fragment_title_1">Raspored</string>
+    <string name="fragment_title_2">Chat</string>
+    <string name="fragment_title_3">Wall</string>
+    <string name="fetch_success_message">Data successfully fetched</string>
+    <string name="fetch_fail_message">Fetch failed, showing cached data</string>
+    <string name="app_file_provider" translatable="false">com.example.projekat2.fileprovider</string>
+</resources>
